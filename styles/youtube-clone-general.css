@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(15, 15, 15);
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+p {
+  font-family: Roboto;
+
+  color: white;
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+input {
+  font-family: Roboto;
+}
+
+.viewport {
+  display: grid;
+  grid-template-columns: 246px 1fr;
+}
+
+.content-wrapper {
+  width: 100%;
+  height: calc(100vh - 140px);
+
+  overflow-y: scroll;
+}
+
+.content-wrapper::-webkit-scrollbar {
+  background-color: transparent;
+  
+  width: 14px;
+}
+
+.content-wrapper::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+a {
+  margin: 0px 4px 0px 0px;
+}

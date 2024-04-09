@@ -1,0 +1,130 @@
+body {
+  background-color: rgb(15, 15, 15);
+
+  margin: 0px 0px 0px 0px;
+}
+
+p{
+  font-family: Roboto;
+
+  color: white;
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.top-bar {
+  width: 100%;
+  height: 56px;
+  align-items: center;
+
+  display: flex;
+  flex-direction: row;
+
+  background-color: rgb(15, 15, 15);
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 32px 0px 32px;
+}
+
+.section-1 {
+ width: 920px;
+
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+
+ margin: 0px 0px 0px 0px;
+}
+
+.hamburger-menu-div {
+  width: 24px;
+  height: 24px;
+
+  margin: 8px 8px 8px 8px;
+
+  cursor: pointer;
+}
+
+.hamburger-menu {
+  width: 100%;
+  height: 100%;
+
+  filter: invert(100%);
+}
+
+.youtube-logo-div {
+  width: 90px;
+  height: 20px;
+
+  margin: 0px 0px 0px 16px;
+
+  cursor: pointer;
+}
+
+.section-2 {
+  width: 100%;
+  height: 100%;
+
+}
+
+.section-3 {
+  
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 16px 0px 16px;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 8px;
+  
+  object-fit: contain;
+  object-position: center;
+  
+  margin: 0px 0px 8px 0px;
+}
+
+.video-detail-grid {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+}
+
+.creator-profile {
+  width: 36px;
+  height: 36px;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 18px;
+}
+
+.video-title {
+  font-weight: bold;
+
+  margin: 0px 0px 6px 0px;
+}
+
+.creator-name {
+  color: rgb(170, 170, 170) ;
+  font-size: 14px;
+  font-weight: 500;
+
+  margin: 0px 0px 3px 0px;
+}
+
+.view-count {
+  color: rgb(170, 170, 170) ;
+  font-size: 14px;
+  font-weight: 500;
+  
+  margin: 0px 0px 8px 0px;
+}

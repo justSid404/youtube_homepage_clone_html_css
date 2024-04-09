@@ -1,0 +1,58 @@
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+
+  align-content: flex-start;
+
+  margin: 0px 0px 0px 0px;
+  padding: 0px 16px 0px 16px;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 8px;
+  
+  object-fit: contain;
+  object-position: center;
+  
+  margin: 0px 0px 8px 0px;
+}
+
+.video-detail-grid {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+}
+
+.creator-profile {
+  width: 36px;
+  height: 36px;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 18px;
+}
+
+.video-title {
+  font-weight: bold;
+
+  margin: 0px 0px 6px 0px;
+}
+
+.creator-name {
+  color: rgb(170, 170, 170) ;
+  font-size: 14px;
+  font-weight: 500;
+
+  margin: 0px 0px 3px 0px;
+}
+
+.view-count {
+  color: rgb(170, 170, 170) ;
+  font-size: 14px;
+  font-weight: 500;
+  
+  margin: 0px 0px 8px 0px;
+}
