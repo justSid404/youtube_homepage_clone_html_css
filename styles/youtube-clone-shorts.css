@@ -30,18 +30,27 @@
 }
 
 .shorts-content-div {
+  /*
   display: flex;
   flex-direction: row;
   align-content: flex-start;
+  */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  vertical-align: top;
+  column-gap: 16px;
   
+  /*
   height: 484px;
+  */
 
   margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 16px 0px 16px;
 }
 
 .short-thumbnail, .short {
-  width: 216.984px;
+  width: 100%;
   object-fit: cover;
 
   border-radius: 12px;

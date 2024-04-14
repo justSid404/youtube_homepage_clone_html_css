@@ -2,7 +2,7 @@ body {
   background-color: rgb(15, 15, 15);
 
   margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 68px 0px 0px 0px;
 }
 
 p {
@@ -19,17 +19,19 @@ input {
 }
 
 .viewport {
-  display: grid;
-  grid-template-columns: 246px 1fr;
+  margin: 0px 0px 0px 0px;
 }
 
 .content-wrapper {
-  width: 100%;
-  height: calc(100vh - 140px);
 
+  /*
   overflow-y: scroll;
+  */
+
+  padding: 68px 0px 0px 246px;
 }
 
+/*
 .content-wrapper::-webkit-scrollbar {
   background-color: transparent;
   
@@ -39,6 +41,7 @@ input {
 .content-wrapper::-webkit-scrollbar-thumb {
   background-color: #888;
 }
+*/
 
 a {
   margin: 0px 4px 0px 0px;

@@ -1,12 +1,19 @@
+.content-and-category-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .category-div {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 
-  width: 100%;
-  height: 56px;
+  position: fixed;
+  width: 87.19%;
+  height: auto;
+  background-color: rgb(15, 15, 15);
 
-  margin: 0px 0px 16px 0px;
+  margin: 0px 0px 16px 12.81%;
   padding: 0px 0px 0px 0px;
 }
 
@@ -16,9 +23,11 @@
 
   width: auto;
 
+  white-space: nowrap;
+
   transition: background-color 0.15s;
 
-  margin: 0px 12px 0px 0px;
+  margin: 0px 12px 12px 0px;
   padding: 8px 12px 8px 12px;
 
   cursor: pointer;
