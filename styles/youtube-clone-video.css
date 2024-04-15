@@ -14,8 +14,13 @@
   .content-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
   .video-title {
     font-size: 14px;
+  }
+
+  .creator-name, .view-count {
+    font-size: 12px;
   }
 }
 
@@ -23,8 +28,13 @@
   .content-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .video-title {
-    font-size: 14px;
+    font-size: 12px;
+  }
+
+  .creator-name, .view-count {
+    font-size: 10px;
   }
 }
 
@@ -32,8 +42,13 @@
   .content-grid {
     grid-template-columns: 1fr 1fr;
   }
+
   .video-title {
-    font-size: 14px;
+    font-size: 12px;
+  }
+
+  .creator-name, .view-count {
+    font-size: 10px;
   }
 }
 
@@ -41,8 +56,13 @@
   .content-grid {
     grid-template-columns: 1fr;
   }
+
   .video-title {
-    font-size: 14px;
+    font-size: 12px;
+  }
+
+  .creator-name, .view-count {
+    font-size: 10px;
   }
 }
 
