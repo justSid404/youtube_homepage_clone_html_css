@@ -10,6 +10,14 @@
   padding: 0px 16px 0px 16px;
 }
 
+@media screen and (min-width: 1701px) and (max-width: 3840px){
+
+  .creator-name, .view-count {
+    font-size: 14px;
+  }
+
+}
+
 @media screen and (min-width: 1401px) and (max-width: 1700px){
   .content-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -52,17 +60,17 @@
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 800px){
+@media screen and (min-width: 1px) and (max-width: 800px){
   .content-grid {
     grid-template-columns: 1fr;
   }
 
   .video-title {
-    font-size: 12px;
+    font-size: 7px;
   }
 
   .creator-name, .view-count {
-    font-size: 10px;
+    font-size: 6px;
   }
 }
 
