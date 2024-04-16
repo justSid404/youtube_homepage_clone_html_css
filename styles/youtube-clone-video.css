@@ -107,7 +107,6 @@
 
 .creator-name {
   color: rgb(170, 170, 170) ;
-  font-size: 14px;
   font-weight: 500;
 
   margin: 0px 0px 3px 0px;
@@ -115,7 +114,6 @@
 
 .view-count {
   color: rgb(170, 170, 170) ;
-  font-size: 14px;
   font-weight: 500;
   
   margin: 0px 0px 8px 0px;
