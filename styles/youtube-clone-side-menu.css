@@ -25,22 +25,19 @@ a {
 
   background-color: rgb(15, 15, 15);
 
+  scrollbar-color: rgb(15, 15, 15) rgb(15, 15, 15);
+  scrollbar-width: thin;
+
+  transition: scrollbar-color 0.15s;
+
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
 }
 
-.side-menu-container::-webkit-scrollbar {
-  width: 6px;
-}
+.side-menu-container:hover {
 
-.side-menu-container::-webkit-scrollbar-thumb {
-  border-radius: 3px;
+  scrollbar-color: #888 rgb(15, 15, 15);
 
-  transition: background-color 0.15s;
-}
-
-.side-menu-container:hover::-webkit-scrollbar-thumb {
-  background-color: #888; /* new color when hovering over scrollbar */
 }
 
 .side-menu-option-default {

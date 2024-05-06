@@ -3,6 +3,17 @@ body {
 
   margin: 0px 0px 0px 0px;
   padding: 68px 0px 0px 0px;
+
+}
+
+html {
+  scrollbar-color: rgb(136, 136, 136) rgb(15, 15, 15);
+  -webkit-scrollbar-color: rgb(136, 136, 136) rgb(15, 15, 15);
+}
+
+.redirection {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 p {
@@ -24,24 +35,8 @@ input {
 
 .content-wrapper {
 
-  /*
-  overflow-y: scroll;
-  */
-
   padding: 68px 0px 0px 246px;
 }
-
-/*
-.content-wrapper::-webkit-scrollbar {
-  background-color: transparent;
-  
-  width: 14px;
-}
-
-.content-wrapper::-webkit-scrollbar-thumb {
-  background-color: #888;
-}
-*/
 
 a {
   margin: 0px 4px 0px 0px;
