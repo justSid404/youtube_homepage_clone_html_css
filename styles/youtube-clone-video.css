@@ -10,11 +10,11 @@
 
 @media screen and (min-width: 1701px) and (max-width: 3840px){
 
-  .creator-name {
-    font-size: 14px;
+  .video-title {
+    font-size: 16px;
   }
-  
-  .view-count {
+
+  .creator-name, .view-count {
     font-size: 14px;
   }
 
@@ -29,11 +29,7 @@
     font-size: 14px;
   }
 
-  .creator-name {
-    font-size: 12px;
-  }
-  
-  .view-count {
+  .creator-name, .view-count {
     font-size: 12px;
   }
 }
@@ -44,15 +40,11 @@
   }
 
   .video-title {
-    font-size: 12px;
+    font-size: 14px;
   }
 
-  .creator-name {
-    font-size: 10px;
-  }
-  
-  .view-count {
-    font-size: 10px;
+  .creator-name, .view-count {
+    font-size: 12px;
   }
 }
 
@@ -62,15 +54,11 @@
   }
 
   .video-title {
-    font-size: 10px;
+    font-size: 16px;
   }
 
-  .creator-name {
-    font-size: 8px;
-  }
-  
-  .view-count {
-    font-size: 8px;
+  .creator-name, .view-count {
+    font-size: 14px;
   }
 }
 
@@ -80,15 +68,11 @@
   }
 
   .video-title {
-    font-size: 8px;
-  }
-
-  .video-title {
-    font-size: 7px;
+    font-size: 16px;
   }
 
   .creator-name, .view-count {
-    font-size: 6px;
+    font-size: 14px;
   }
 }
 
