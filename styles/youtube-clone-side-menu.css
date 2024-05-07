@@ -38,7 +38,7 @@ a {
 
   .side-menu-container {
 
-    opacity: 0;
+    display: none;
 
   }
   
