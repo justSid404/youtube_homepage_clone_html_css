@@ -17,7 +17,7 @@ a {
   */
   
   width: 246px;
-  height: 92.81%;
+  height: 92.80%;
 
   position: fixed;
 
@@ -32,6 +32,16 @@ a {
 
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .side-menu-container {
+
+    opacity: 0;
+
+  }
+  
 }
 
 .side-menu-container:hover {
